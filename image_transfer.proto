@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package image_service;
+
+message ImageResponse {
+  bytes image_data = 1;
+}
+
+message ImageRequest {
+  string voidMessage = 1;
+}
+
+service ImageTransfer {
+  rpc getImage (ImageRequest) returns (stream ImageResponse);
+}
