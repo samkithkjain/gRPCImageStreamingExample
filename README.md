@@ -1,4 +1,4 @@
-# Comparing Protobuf based file storage vs JSON based file storage 
+# gRPC - Simple Server Streaming and Interceptors in Python
 
 To regenerate python server/client code:
 
